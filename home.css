@@ -5,15 +5,24 @@ body{
     box-sizing: border-box;
     font-family: 'Inter', monospace;
     font-weight: 600;
+    background: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
 }
 .menu {
     display: flex;
     justify-content: space-around;
+    color: white;
 }
+.menu a {
+    color: skyblue;
+    text-decoration: none;
+    
+}
+
 .welcome {
     display: flex;
     justify-content: center;
     padding-top: 3rem;
+    color: #FFF;
 }
 .sobre-nos {
     display: flex;
@@ -21,5 +30,33 @@ body{
     align-items: center;
     padding: 5rem;
     margin: 5rem;
+    color: #000;
 }
+
+.img-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.img-diarista {
+    display: flex;
+    justify-content: center;
+    margin: 6rem;
+     height: 720px;
+    width: 1280px; 
+    border: 1px #000 solid;
+}
+
+aside {
+    margin: 3rem;
+}
+
+.texto-2  {
+    margin-top: 2rem;
+}
+
+
+
+
 
