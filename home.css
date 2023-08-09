@@ -5,7 +5,7 @@ body{
     box-sizing: border-box;
     font-family: 'Inter', monospace;
     font-weight: 600;
-    background: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% );
+    background: rgba(107, 114, 128, 1);
 }
 .menu {
     display: flex;
